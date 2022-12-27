@@ -38,3 +38,23 @@ ClassToInstanceMapBuilder<Feature> features = new ClassToInstanceMapBuilder<Feat
 
 Feature1 instance = features.getInstance(Feature1.class);
 ```
+
+# Dependency
+If you want to use this in your project, you can add it as a Maven dependency:
+
+```xml
+<repositories>
+  <repository>
+    <id>iridium-repo</id>
+    <url>https://raw.github.com/sim0n/iridium/repository/</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>dev.sim0n</groupId>
+    <artifactId>iridium</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </dependency>
+</dependencies>
+```
